@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <head lang="en-us">
+        <meta charset="UTF-8">
+        <title>Trivia Game</title>
+        <link href="assets/css/reset.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <button id="start">Start Game</button>
+        <h3>Time Left</h3>
+        <div id="timeLeft"> </div>
+
+        <h3>Question</h3>
+        <div id="question" ></div>
+
+        <h3>Options</h3>
+        <button id="option1" class="option" data-guess="0"></button>
+        <button id="option2" class="option" data-guess="1"></button>
+        <button id="option3" class="option" data-guess="2"></button>
+
+        <h3>Results</h3>
+        <div id="result1"></div>
+        <div id="result2"></div>
+        <div id="result3"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+    </body>
+</html>
